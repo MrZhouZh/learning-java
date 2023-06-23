@@ -28,6 +28,11 @@ public class HelloWorld {
         System.out.println(d2);
         System.out.println(d3);
 
+        // 计算前N个自然数的和
+        int n = 100;
+        int sum = ((1 + n) * n) / 2;
+        System.out.println(sum);    // 5050
+
     }
 }
 
