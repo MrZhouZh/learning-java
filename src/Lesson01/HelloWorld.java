@@ -33,6 +33,18 @@ public class HelloWorld {
         int sum = ((1 + n) * n) / 2;
         System.out.println(sum);    // 5050
 
+        // 根据一元二次方程求根公式
+        double a = 1.0;
+        double b = 3.0;
+        double c = -4.0;
+        double sqrt = Math.sqrt(b * b - 4 * a * c);
+        double r1 = ((-b) + sqrt) / (2 * a);
+        double r2 = ((-b) - sqrt) / (2 * a);
+        System.out.println(r1);
+        System.out.println(r2);
+        System.out.println(r1 == 1 && r2 == -4 ? "Test Passed." : "Test Failed");
+        // Test Passed.
+
     }
 }
 
